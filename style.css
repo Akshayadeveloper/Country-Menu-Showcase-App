@@ -1,0 +1,76 @@
+/* styles.css */
+@import url( 
+"https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+    
+    header {
+      background: linear-gradient(to bottom right, #00bcd4, #2196f3, #64b5f6);
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    select {
+      padding: 10px 20px;
+      border: 1px solid #333;
+      border-radius: 5px;
+      background-color: #fff;
+      color: #333;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    .menu-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    .menu-item {
+      background-image: linear-gradient(135deg, color(display-p3 .572549 .415686 1) 0%, color(display-p3 1 .466667 .690196) 50%, color(display-p3 1 .701961 .403922) 100%);
+      border-radius: 8px;
+      padding: 10px 20px;
+      color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: #000019 0 0, rgba(0, 0, 25, .3) 0 9px 21px, rgba(73, 2, 57, .2) 0 -3px inset;
+      width: calc(33.33% - 20px);
+      
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+    #menuContainer{
+      max-height:100%;
+      max-width:100%;
+    }
+  
+    @media only screen and (max-width: 768px) {
+      .menu-item {
+        width: calc(50% - 20px);
+      }
+    }
+
+    @media only screen and (max-width: 576px) {
+      .menu-item {
+        width: calc(100% - 20px);
+      }
+    }
+  
+  
